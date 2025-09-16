@@ -26,6 +26,7 @@ export const Hero = () => {
       image,
       publishedAt,
       visitedDate: new Date().toLocaleString(),
+      url: item.url,
     };
 
     const history: HistoryType[] =

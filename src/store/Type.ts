@@ -16,4 +16,5 @@ export interface HistoryType {
   image: string;
   publishedAt: string;
   visitedDate: string;
+  url: string;
 }
